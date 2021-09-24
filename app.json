@@ -1,11 +1,10 @@
 {
-  "expo": {
-    "name": "login",
-    "slug": "login",
-    "version": "1.0.0",
-    "assetBundlePatterns": [
-      "**/*"
-    ]
-  },
-  "name": "login"
+
+  "web": {
+    "build": {
+      "babel": {
+        "include": ["react-router-native"]
+      }
+    }
+  }
 }
